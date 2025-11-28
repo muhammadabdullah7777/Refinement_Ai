@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     
     # Moonshot API Configuration
     MOONSHOT_API_KEY: str
-    MOONSHOT_API_URL: str = "https://api.moonshot.cn/v1/chat/completions"
+    MOONSHOT_API_URL: str = "https://api.moonshot.ai/v1/chat/completions"
     
     # Application Settings
     ENVIRONMENT: str = "development"
