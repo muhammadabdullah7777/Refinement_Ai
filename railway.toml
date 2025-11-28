@@ -1,0 +1,9 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+# Nixpacks will automatically pick up nixpacks.toml for build and start commands.
+startCommand = ""
+
+[env]
+ENVIRONMENT = "production"
